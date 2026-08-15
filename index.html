@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una Galaxia de Amor para Rubi ✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- FONDO Y CANVAS DE GALAXIA -->
+    <div class="background-wrapper">
+        <div class="stars-background"></div>
+        <canvas id="blackholeCanvas" class="blackhole-canvas"></canvas>
+        <canvas id="galaxyCanvas" class="galaxy-canvas"></canvas>
+    </div>
+
+    <!-- OVERLAY DE BIENVENIDA -->
+    <div id="welcomeOverlay" class="welcome-overlay active">
+        <div class="welcome-card">
+            <div class="welcome-glow"></div>
+            
+            <h1 class="welcome-title">Una Galaxia de Amor</h1>
+            
+            <div class="welcome-image-container">
+                <img src="Imagenes/inicio.jpg" alt="Bienvenida" class="welcome-image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 400%22%3E%3Crect fill=%22%23ff1493%22 width=%22400%22 height=%22400%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2240%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3E💖%3C/text%3E%3C/svg%3E'">
+            </div>
+            
+            <h2 class="welcome-subtitle">Feliz Cumpleaños, mi vida</h2>
+            <p class="welcome-date">15 de Mayo</p>
+            
+            <button id="enterBtn" class="btn-enter">
+                <span>ENTRAR A NUESTRO UNIVERSO</span>
+                <i class="fas fa-heart"></i>
+            </button>
+            
+            <p class="welcome-hint">Haz clic para comenzar ✨</p>
+        </div>
+    </div>
+
+    <!-- CONTENEDOR PRINCIPAL DE LA GALAXIA -->
+    <div id="mainContent" class="main-content">
+        <!-- Botón de reinicio -->
+        <button id="resetBtn" class="btn-reset" title="Volver al inicio">
+            <i class="fas fa-home"></i>
+        </button>
+
+        <!-- Reproductor de música flotante -->
+        <div id="musicPlayer" class="music-player">
+            <button id="playPauseBtn" class="music-btn" title="Reproducir/Pausar">
+                <i class="fas fa-play"></i>
+            </button>
+            <div class="music-info">
+                <span id="musicTitle">Música de Fondo</span>
+            </div>
+        </div>
+
+        <!-- INSTRUCCIONES -->
+        <div class="instructions">
+            <p>✨ Haz clic en los corazones para descubrir los mensajes ✨</p>
+        </div>
+    </div>
+
+    <!-- MODALES DE TARJETAS (Inicialmente ocultos) -->
+    <div id="modalOverlay" class="modal-overlay">
+        <div class="modal-card">
+            <button class="modal-close" aria-label="Cerrar">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="modal-header">
+                <h2 id="modalTitle" class="modal-title">Título</h2>
+            </div>
+            
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="" class="modal-image" onerror="this.style.display='none'">
+                <p id="modalText" class="modal-text">Contenido</p>
+            </div>
+            
+            <button class="btn-back">
+                <i class="fas fa-arrow-left"></i>
+                VOLVER ♥
+            </button>
+        </div>
+    </div>
+
+    <!-- AUDIO ELEMENT (sin controles nativos) -->
+    <audio id="bgMusic" preload="auto">
+        <source src="música/musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- MOTOR 3D (Three.js) PARA EL AGUJERO NEGRO -->
+    <!-- Script clásico (no type="module"): así funciona tanto si la página se
+         abre con doble clic (file://) como si se sirve por http/https. -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="blackhole.js"></script>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>

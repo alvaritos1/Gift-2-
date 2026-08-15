@@ -1,0 +1,88 @@
+🚀 INICIO RÁPIDO - 3 PASOS
+==========================
+
+PASO 1: Agregar Imágenes (10 minutos)
+─────────────────────────────────────
+
+Necesitas 9 imágenes. Guarda todas en la carpeta "imagenes/" con estos nombres exactos:
+
+✓ inicio.png          (ilustración tierna - 400x400px)
+✓ rubi_perfil.jpg     (foto de Rubi - 400x500px)
+✓ arequipa.jpg        (Arequipa - 400x300px)
+✓ unam_mexico.jpg     (UNAM - 400x300px)
+✓ danza.jpg           (baile - 400x300px)
+✓ viajes.jpg          (viajes - 400x300px)
+✓ deportes_extremos.jpg (extremos - 400x300px)
+✓ delfin.png          (delfín - 300x300px)
+✓ caballo.png         (caballo - 300x300px)
+
+¿Dónde conseguir? Unsplash.com, Pexels.com, Pixabay.com (gratis)
+
+Detalles completos: Lee "IMAGENES_REQUERIDAS.txt"
+
+
+PASO 2: Probar Localmente (2 minutos)
+──────────────────────────────────────
+
+1. Abre el archivo "index.html" en tu navegador
+2. Haz clic en "ENTRAR A NUESTRO UNIVERSO"
+3. Prueba hacer clic en los corazones
+4. ¡Funciona! ✨
+
+
+PASO 3: Desplegar en GitHub Pages (15 minutos)
+──────────────────────────────────────────────
+
+A. Crea cuenta en https://github.com/signup
+
+B. Crea nuevo repositorio en https://github.com/new
+   - Nombre: regalo-para-rubi
+   - Público: Sí
+
+C. Abre PowerShell en tu carpeta y ejecuta:
+
+   git init
+   git add .
+   git commit -m "Galaxia de Amor para Rubi 💖"
+   git remote add origin https://github.com/TU-USUARIO/regalo-para-rubi.git
+   git branch -M main
+   git push -u origin main
+
+D. En GitHub:
+   - Settings → Pages
+   - Source: Deploy from a branch (main, /root)
+   - Save
+
+E. ¡Tu página estará en:
+   https://TU-USUARIO.github.io/regalo-para-rubi/
+
+Guía completa: Lee "DESPLIEGUE_GITHUB_PAGES.md"
+
+
+🎉 ¡LISTO! Comparte el link con Rubi
+=====================================
+
+Copia tu URL y envía:
+- WhatsApp
+- Email
+- QR (genera en qr-code-generator.com)
+- Redes sociales
+
+---
+
+📞 Problemas?
+
+❌ Imágenes no se ven
+→ Verifica carpeta "imagenes/" y nombres exactos
+
+❌ GitHub Pages no funciona
+→ Espera 2-5 minutos, actualiza página
+
+❌ Corazones no clickeables
+→ Abre DevTools (F12), revisa consola
+
+Más ayuda: Lee "README.md"
+
+---
+
+🌟 ¡Feliz Cumpleaños, Rubi! 🌟

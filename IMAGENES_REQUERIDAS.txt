@@ -1,0 +1,148 @@
+📸 INSTRUCCIONES DE IMÁGENES - GALAXIA DE AMOR PARA RUBI
+=========================================================
+
+IMPORTANTE: Coloca TODAS las imágenes en la carpeta "Imagenes/"
+(Los nombres deben ser exactos, incluyendo mayúsculas y extensiones)
+
+---
+
+IMÁGENES REQUERIDAS:
+====================
+
+1. ✨ inicio.png
+   Descripción: Imagen/ilustración tierna para la pantalla de bienvenida
+   Tamaño recomendado: 400x400 px (cuadrada)
+   Formato: PNG o JPG
+   Uso: Se muestra en el overlay de entrada y en la última tarjeta
+
+2. 👸 rubi_perfil.jpg
+   Descripción: Foto de Rubi (su perfil o foto bonita)
+   Tamaño recomendado: 400x500 px (vertical)
+   Formato: JPG
+   Uso: Tarjeta "La Chica Más Especial"
+
+3. 🏔️ arequipa.jpg
+   Descripción: Foto de Arequipa o la "Ciudad Blanca"
+   Tamaño recomendado: 400x300 px
+   Formato: JPG
+   Uso: Tarjeta "Tus Raíces"
+
+4. 🎓 unam_mexico.jpg
+   Descripción: Logo de UNAM o foto de la universidad en México
+   Tamaño recomendado: 400x300 px
+   Formato: JPG
+   Uso: Tarjeta "Próxima Parada: UNAM México"
+
+5. 💃 danza.jpg
+   Descripción: Foto alusiva a la danza/baile
+   Tamaño recomendado: 400x300 px
+   Formato: JPG
+   Uso: Tarjeta "Arte, Movimiento y Aventuras"
+
+6. ✈️ viajes.jpg
+   Descripción: Foto de viajes, destinos o aventuras
+   Tamaño recomendado: 400x300 px
+   Formato: JPG
+   Uso: Tarjeta "Arte, Movimiento y Aventuras" (alternativa)
+
+7. 🧗‍♀️ deportes_extremos.jpg
+   Descripción: Foto de deportes extremos (escalada, paracaidismo, skydiving, etc.)
+   Tamaño recomendado: 400x300 px
+   Formato: JPG
+   Uso: Tarjeta "Adrenalina y Valentía"
+
+8. 🐬 delfin.png
+   Descripción: Imagen/ilustración de un delfín
+   Tamaño recomendado: 300x300 px
+   Formato: PNG (para mejor transparencia)
+   Uso: Tarjeta "Delfines y Caballos"
+
+9. 🐴 caballo.png
+   Descripción: Imagen/ilustración de un caballo
+   Tamaño recomendado: 300x300 px
+   Formato: PNG (para mejor transparencia)
+   Uso: Tarjeta "Delfines y Caballos"
+
+---
+
+MÚSICA (OPCIONAL):
+==================
+
+musica.mp3
+Descripción: Canción de fondo para la web
+Ubicación: Carpeta raíz (al lado de index.html)
+Formato: MP3
+Duración recomendada: 3-5 minutos (se puede repetir)
+Nota: Si no pones este archivo, la web seguirá funcionando normalmente
+
+---
+
+FORMATOS ACEPTADOS:
+===================
+- JPG / JPEG: Fotos reales, paisajes, personas
+- PNG: Ilustraciones, logos, imágenes con fondo transparente
+- WEBP: Formato moderno (opcional)
+
+TAMAÑOS RECOMENDADOS:
+=====================
+- Imágenes grandes (inicio.png, rubi_perfil.jpg): ~400x500 px
+- Imágenes pequeñas (resto): ~400x300 px
+- Delfín y Caballo: ~300x300 px
+
+Optimización: Todas las imágenes se cargarán más rápido si están optimizadas
+(usa herramientas como TinyPNG o similar para reducir tamaño sin perder calidad)
+
+---
+
+CÓMO AGREGAR LAS IMÁGENES:
+==========================
+
+1. Guarda las imágenes con los nombres EXACTOS listados arriba
+2. Copia todas las imágenes a la carpeta "Imagenes/"
+3. ¡Listo! La web las detectará automáticamente
+
+Estructura final:
+Regalo para R si se da/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+├── musica.mp3 (OPCIONAL)
+└── imagenes/
+    ├── inicio.png ⭐
+    ├── rubi_perfil.jpg ⭐
+    ├── arequipa.jpg ⭐
+    ├── unam_mexico.jpg ⭐
+    ├── danza.jpg ⭐
+    ├── viajes.jpg ⭐
+    ├── deportes_extremos.jpg ⭐
+    ├── delfin.png ⭐
+    └── caballo.png ⭐
+
+---
+
+⭐ = IMAGEN REQUERIDA PARA QUE LA WEB SE VEA PERFECTA
+
+Si falta alguna imagen, la web seguirá funcionando pero mostrará un placeholder.
+Se recomienda tener TODAS las imágenes para la mejor experiencia.
+
+---
+
+¿DÓNDE ENCONTRAR IMÁGENES?
+===========================
+
+- Google Images: Busca y descarga (verifica licencia)
+- Unsplash.com: Imágenes gratuitas sin copyright
+- Pexels.com: Banco de imágenes gratis
+- Pixabay.com: Más de 3 millones de imágenes gratis
+- Canva.com: Crear ilustraciones personalizadas
+- Pinterest: Inspiración y referencias
+
+Para fotos personales:
+- Usa fotos propias de Rubi
+- Fotos de viajes, eventos especiales
+- Screenshots de momentos memorables
+
+---
+
+¡LISTO! Una vez agregues todas las imágenes, la Galaxia de Amor estará completa. 💖✨

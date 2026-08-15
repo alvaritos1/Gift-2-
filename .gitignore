@@ -1,0 +1,43 @@
+# .gitignore - Archivos a ignorar en el repositorio Git
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+.desktop
+*.swp
+*.swo
+*~
+
+# Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Node (si usas npm)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Python (si usas Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Archivos temporales
+*.tmp
+*.temp
+.cache/
+
+# Logs
+*.log
+logs/
+
+# OS specific
+.env.local
+.env.*.local
